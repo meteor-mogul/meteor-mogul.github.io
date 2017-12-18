@@ -1,7 +1,7 @@
 December 14, 2017\
 Brunswick, Maine
 
-#Meteor Mogul
+# Meteor Mogul
 
 Meteor Mogul is a hobby project for learning Meteor, VueJS and Bootstrap to create apps for friends and family.
 
@@ -18,7 +18,7 @@ VueJS is easy to learn and has momentum going for it among hobbyists.  Unfortuna
 
 That's where Meteor Mogul comes in.  You can clone our simple sample apps and quickly see what it's like to develop an app using VueJS with Meteor.
 
-##Current Status of Meteor Mogul: Alpha
+## Current Status of Meteor Mogul: Alpha
 
 Two simple sample apps are working:
 
@@ -27,7 +27,7 @@ Two simple sample apps are working:
     <li><a href="https://github.com/meteor-mogul/mogul-meteor-vue-todo">https://github.com/meteor-mogul/mogul-meteor-vue-todo</a></li>
   </ol>
 
-##Getting Started
+## Getting Started
 
 A preliminary note:\
      If you have Windows 10, you'll probably notice when you start playing
@@ -62,7 +62,7 @@ Then do the following:
 
 If you forget the `meteor npm install` you'll probably see error messages letting you know that you need to install the `babel-runtime` node package.  The `meteor npm install` just has to happen once, but it's okay to run it multiple times.
 
-##Under the Hood
+## Under the Hood
 
 The main thing meteor-mogul does is provide the latest version of VueJS as a meteor package and removes the blaze package.  So then when you write your `.html` files, vue.js takes over and deals with them instead.</p>
 
