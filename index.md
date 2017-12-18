@@ -22,8 +22,8 @@ That's where Meteor Mogul comes in.  You can clone our simple sample apps and qu
 
 Two simple sample apps are working:
 
-    1. [https://github.com/meteor-mogul/mogul-helloworld](https://github.com/meteor-mogul/mogul-helloworld)
-    2. [https://github.com/meteor-mogul/mogul-meteor-vue-todo](https://github.com/meteor-mogul/mogul-meteor-vue-todo)
+1. [https://github.com/meteor-mogul/mogul-helloworld](https://github.com/meteor-mogul/mogul-helloworld)
+2. [https://github.com/meteor-mogul/mogul-meteor-vue-todo](https://github.com/meteor-mogul/mogul-meteor-vue-todo)
 
 ## Getting Started
 
