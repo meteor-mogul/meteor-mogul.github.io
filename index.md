@@ -3,16 +3,16 @@ Brunswick, Maine
 
 # Meteor Mogul
 
-Meteor Mogul is a hobby project for learning Meteor, VueJS and Bootstrap to create apps for friends and family.
+Meteor Mogul is a hobby project for learning [Meteor](https://www.meteor.com/), [VueJS][vue] and [Bootstrap](https://getbootstrap.com/) to create apps for friends and family.
 
-The goal of the project (at this point) is just to make it easier for new developers to test out writing apps using VueJS with meteor.
+The goal of the project (at this point) is just to make it easier for new developers to test out writing apps using VueJS with Meteor.
 
 There are four major front-end frameworks that can work with Meteor:
 
-    1. Blaze
-    2. React
-    3. Angular
-    4. VueJS
+1. [Blaze](http://blazejs.org/)
+2. [React](https://reactjs.org/)
+3. [Angular](https://angular.io/)
+4. [VueJS][vue]
 
 VueJS is easy to learn and has momentum going for it among hobbyists.  Unfortunately, it can be a bit tricky to get working in Meteor since it is not part of the official build.
 
@@ -22,8 +22,8 @@ That's where Meteor Mogul comes in.  You can clone our simple sample apps and qu
 
 Two simple sample apps are working:
 
-1. [https://github.com/meteor-mogul/mogul-helloworld](https://github.com/meteor-mogul/mogul-helloworld)
-2. [https://github.com/meteor-mogul/mogul-meteor-vue-todo](https://github.com/meteor-mogul/mogul-meteor-vue-todo)
+    1. [https://github.com/meteor-mogul/mogul-helloworld](https://github.com/meteor-mogul/mogul-helloworld)
+    2. [https://github.com/meteor-mogul/mogul-meteor-vue-todo](https://github.com/meteor-mogul/mogul-meteor-vue-todo)
 
 ## Getting Started
 
@@ -40,7 +40,7 @@ To start playing with Meteor Mogul, here's what you need:
 
 1. Either MacOS (easier and faster for developing with Meteor Mogul) or Windows 10 (harder and slower for developing with Meteor Mogul).
 2. An evergreen web browser. I recommend Google Chrome.
-3. A programming editor. I recommend Atom.
+3. A programming editor. I recommend [Atom](https://atom.io/).
 4. [Meteor](https://www.meteor.com/)
 5. [GitHub Desktop](https://desktop.github.com/) or `git`.
 
@@ -48,14 +48,17 @@ Once you have all the above, you'll need to practice a little bit to know how to
 
 Here's how to try out our simple sample apps.
 
-First, clone the app you want to try, e.g. `$ git clone https://github.com/meteor-mogul/mogul-meteor-vue-todo.git target-dir`
+First, clone the app you want to try, e.g.
+```
+    $ git clone https://github.com/meteor-mogul/mogul-meteor-vue-todo.git target-dir
+```
 
 Then do the following:
 
 ```
-    $ cd target-dir</li>
-    $ meteor npm install</li>
-    $ meteor</li>
+    $ cd target-dir
+    $ meteor npm install
+    $ meteor
 ```
 
 If you forget the `meteor npm install` you'll probably see error messages letting you know that you need to install the `babel-runtime` node package.  The `meteor npm install` just has to happen once, but it's okay to run it multiple times.
@@ -74,4 +77,6 @@ In the future I may try re-writing some of the most useful meteor packages (such
 
 Have fun and I hope this saves you some time if you're interested in seeing what it's like to develop apps with VueJS and meteor together.
 
-<i>\-Fred</i>
+*\-Fred*
+
+[vue](https://vuejs.org/)
