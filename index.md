@@ -79,4 +79,4 @@ Have fun and I hope this saves you some time if you're interested in seeing what
 
 *\-Fred*
 
-[vue](https://vuejs.org/)
+[vue]: https://vuejs.org/
