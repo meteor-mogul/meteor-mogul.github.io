@@ -1,5 +1,9 @@
 # Changelog for meteor-mogul.github.io
 
+## 0.0.4 (2018-01-04)
+
+- Add third sample app (mogul-button)
+
 ## 0.0.3 (2017-12-22)
 
 ### Changed
