@@ -1,5 +1,10 @@
 # Changelog for meteor-mogul.github.io
 
+## [0.0.5] - 2018-01-05
+
+- Add fourth sample app (vue-intro)
+- Wordsmith a little
+
 ## 0.0.4 (2018-01-04)
 
 - Add third sample app (mogul-button)

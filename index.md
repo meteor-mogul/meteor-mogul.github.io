@@ -1,11 +1,11 @@
-January 4, 2018  
+January 5, 2018  
 Brunswick, Maine
 
 # What is Meteor Mogul?
 
 Meteor Mogul is a hobby project for learning [Meteor][meteor], [VueJS][vue] and [Bootstrap](https://getbootstrap.com/) to create apps for friends and family.
 
-The goal of the project (at this point) is just to make it easier for new developers to test out writing apps using VueJS with Meteor.
+The goal of the project (at this point) is just to make it easier for new developers to test out writing apps using VueJS with Meteor and Bootstrap.
 
 There are four major front-end frameworks that can work with Meteor:
 
@@ -14,19 +14,24 @@ There are four major front-end frameworks that can work with Meteor:
 3. [Angular](https://angular.io/)
 4. [VueJS][vue]
 
-VueJS is easy to learn and has momentum going for it among hobbyists.  Unfortunately, it can be a bit tricky to get working in Meteor since it is not part of the official build.
+VueJS is easy to learn and has momentum going for it.  Unfortunately, it can be a bit tricky to get working in Meteor since it is not part of the official build.  (At least, I found it tricky to get it working.)
 
 That's where Meteor Mogul comes in.  You can clone our simple sample apps and quickly see how VueJS can work with Meteor.
 
+I added Bootstrap to the mix to make my apps look a little nicer.
+
 ## Current Status of Meteor Mogul: Alpha
 
-Three simple sample apps are working:
+Four simple sample apps are working:
 
 1. [Hello, world!](https://github.com/meteor-mogul/mogul-helloworld)
-2. [Mogul Meteor Button Click](https://github.com/meteor-mogul/mogul-button)
-3. [Mogul Meteor To Do](https://github.com/meteor-mogul/mogul-meteor-vue-todo)
+2. [Meteor Mogul Button Click](https://github.com/meteor-mogul/mogul-button)
+3. [Meteor Mogul Meteor Vue To Do](https://github.com/meteor-mogul/mogul-meteor-vue-todo)
+4. [Meteor Mogul Vue Intro](https://github.com/meteor-mogul/vue-intro)
 
-I'm a neophyte at both VueJS and Meteor, so I'm just happy these apps are working.  Once I have wrapped my mind around how other people are integrating VueJS with Meteor, and have some reasonable hope that I'm on the right track, I'll bump the status to beta, post an announcement somewhere, and invite random strangers to give me feedback and ideas.
+I'm a neophyte at both VueJS and Meteor, so I'm just happy these apps are working.  I've already learned a lot writing them.
+
+Once I have wrapped my mind around how other people are integrating VueJS with Meteor, and have some reasonable hope that I'm on the right track, I'll bump the status to beta, post an announcement somewhere, and invite random strangers to give me feedback and ideas.
 
 ## Getting Started
 
@@ -79,11 +84,12 @@ The main thing Meteor Mogul does is provide the latest version of VueJS as a Met
 
 There are [other projects](https://github.com/meteor-vue) which are aiming for a more robust integration of VueJS with Meteor.  Those other projects allow you to write both blaze and vue templates.
 
-The ambition of `meteor-mogul` is more modest: it's here just to help you quickly get writing apps that use VueJS as the front-end and can use MongoDB and the other things on the back end that Meteor provides.
+The ambition of Meteor Mogul is more modest: it's here just to help you quickly get writing apps that use VueJS as the front-end and can use MongoDB and the other things on the back end that Meteor provides.
 
-Any Meteor package that needs Blaze to run (and that's most of them that have a client interface) won't work with `meteor-mogul`.
+In the future I may try the following:
 
-In the future I may try re-writing some of the most useful Meteor packages (such as the accounts system) to work with VueJS.
+1. Re-writing some of the most useful Meteor packages (such as the accounts system) to work with VueJS.
+2. Helping other people (especially people new to coding) learn to write apps using Meteor and VueJS.
 
 My main motivation is to learn by doing.  I have been toying with Meteor over the years and noticed that VueJS seems to be taking off, so I wanted to play around with it, too.
 
