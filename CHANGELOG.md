@@ -1,5 +1,9 @@
 # Changelog for meteor-mogul.github.io
 
+## [0.0.6] - 2018-01-15
+
+- Explaining Atmosphere versus NPM vue package
+
 ## [0.0.5] - 2018-01-05
 
 - Add fourth sample app (vue-intro)
