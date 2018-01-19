@@ -22,7 +22,7 @@ That's where Meteor Mogul comes in.  You can clone my simple sample apps and qui
 
 My main motivation is to learn by doing, and help others do the same.  I have been toying with Meteor over the years and noticed that VueJS seems to be taking off, so I wanted to play around with it, too.  The pedagogical philosophy here is that you'll be able to learn (or to refresh your memory if you have to step away from your coding hobby for life or work reasons) best by playing around on your own with commented code examples rather than reading documentation, watching videos, attending a conference, or sitting in a lecture hall.
 
-Meteor is a great framework for learning how to write web apps.  Using Meteor, you can quickly set up a full-stack development platform with easy access to a large library of JavaScript code that works almost everywhere.  Meteor gets you up and running quickly with "batteries included": with one install you get everything you need on the back end to build and deploy modern web apps.  In short, Meteor is a solid launch pad into the exciting world of open source software development.
+Meteor is a great framework for learning how to write web apps.  Using Meteor, you can quickly set up a full-stack development platform with easy access to a [large library of JavaScript code][npm] that works almost everywhere.  Meteor gets you up and running quickly with "batteries included": with one install you get everything you need on the back end to build and deploy modern web apps.  In short, Meteor is a solid launch pad into the exciting world of open source software development.
 
 VueJS enhances the Meteor developer experience with a view layer that is extremely intuitive and easy to use, while also being cleverly designed to allow you to tackle more sophisticated projects as your skill grows.  It's an improvement over Blaze, the view layer that Meteor provides out of the box: more people are working on VueJS right now, and VueJS benefits from the years of development of other view layers, adopting good ideas while remaining easy to learn.
 
@@ -75,7 +75,7 @@ $ meteor npm install
 $ meteor
 ```
 
-Once you've done the `git clone` you have a local copy of my code.  Once you've done the `meteor npm install` you've got a local copy of all the node packages you need.  Once you've done the `meteor` and see the app running, then you have all the code dependencies downloaded locally and built for your platform.  Then you don't have to worry if your Internet connection goes down; you have everything you need to keep playing with the code locally.
+Once you've done the `git clone` you have a local copy of my code.  Once you've done the `meteor npm install` you've got a local copy of all the [`npm` packages][npm] you need.  Once you've done the `meteor` and see the app running, then you have all the code dependencies downloaded locally and built for your platform.  Then you don't have to worry if your Internet connection goes down; you have everything you need to keep playing with the code locally.
 
 If you're interested in developing your own apps, you'll want to set up your own `GitHub` account, then fork my repos.  Then you can do whatever you want with them.  All of my Meteor Mogul code is MIT licensed, which means that you can have it but you can't sue me if it doesn't work for you.  It's free, with no strings (and no promises or warranties) attached.
 
@@ -95,7 +95,7 @@ $ meteor npm install
 $ meteor
 ```
 
-If you forget the `meteor npm install` you'll probably see error messages letting you know that you need to install the `babel-runtime` node package.  The `meteor npm install` just has to happen once, but it's okay to run it multiple times.  That installs required `npm` packages in your local `node_modules` folder so Meteor can use them when it's building your app.  Meteor installs `npm`, the Node package manager, for you: `meteor npm` works just the same as `npm`.  So by installing Meteor you get access to the entire `npm` library of Node.js modules.
+If you forget the `meteor npm install` you'll probably see error messages letting you know that you need to install the `babel-runtime` node package.  The `meteor npm install` just has to happen once, but it's okay to run it multiple times.  That installs required `npm` packages in your local `node_modules` folder so Meteor can use them when it's building your app.  Meteor installs `npm`, a [package manager for JavaScript][npm], for you: `meteor npm` works just the same as `npm`.  So by installing Meteor you get convenient access to the entire `npm` library of JavaScript code.
 
 By default, `meteor` (the final command above) will launch a web application server listening to port 3000. You can play with your sample app by pointing a browser at [http://localhost:3000](http://localhost:3000).
 
@@ -134,6 +134,8 @@ In the future I may try the following:
 
 I hope Meteor Mogul saves you some time if you're interested in seeing what it's like to develop apps with VueJS and Meteor together.
 
+Now, go [get the Meteor Mogul code](https://github.com/meteor-mogul)!
+
 Have fun!  
 
 *\-Fred*
@@ -141,3 +143,4 @@ Have fun!
 [vue]: https://vuejs.org/
 [meteor]: https://www.meteor.com/
 [evergreen]: http://eisenbergeffect.bluespire.com/evergreen-browsers/
+[npm]: https://www.npmjs.com/

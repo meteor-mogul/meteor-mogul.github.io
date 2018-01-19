@@ -1,5 +1,9 @@
 # Changelog for meteor-mogul.github.io
 
+## [0.0.9] - 2018-01-19
+
+- More tweaks.  Gotta move on!
+
 ## [0.0.8] - 2018-01-19
 
 - Fix typos
