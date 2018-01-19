@@ -1,5 +1,9 @@
 # Changelog for meteor-mogul.github.io
 
+## [0.0.7] - 2018-01-18
+
+- Minor wordsmithing
+
 ## [0.0.6] - 2018-01-15
 
 - Explaining Atmosphere versus NPM vue package
