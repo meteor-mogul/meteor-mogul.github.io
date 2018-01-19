@@ -16,11 +16,11 @@ Four major front-end frameworks can work with Meteor:
 
 VueJS is easy to learn and has momentum going for it.  Unfortunately, it can be a bit tricky to get working in Meteor since it is not part of the official build or tutorial.  (At least, I found it tricky.)
 
-That's where Meteor Mogul comes in.  You can clone my simple sample apps and quickly see how VueJS can work with Meteor; I added Bootstrap to the mix to make my apps look a little nicer.
+That's where Meteor Mogul comes in.  You can clone my simple sample apps and quickly see how VueJS can work with Meteor; I added Bootstrap to the mix to make my apps look a little nicer.  The name "Meteor Mogul" is an allusion to getting over the bumps (in [downhill skiing](https://en.wikipedia.org/wiki/Mogul_skiing), bumps in the snow are called "moguls") that challenge anyone learning a new language or system, and also an allusion to the goal of becoming a better Meteor developer (a "[mogul](https://www.google.com/search?q=Dictionary#dobs=mogul)" is a powerful person).
 
 ## Why Meteor Mogul?
 
-My main motivation is to learn by doing, and help others do the same.  I have been toying with Meteor over the years and noticed that VueJS seems to be taking off, so I wanted to play around with it, too.  The pedagogical philosophy here is that you'll be able to learn (or to refresh your memory if you have to step away from your coding hobby for life or work reason) best by playing around on your own with commented code examples rather than reading documentation, watching videos, attending a conference, or sitting in a lecture hall.
+My main motivation is to learn by doing, and help others do the same.  I have been toying with Meteor over the years and noticed that VueJS seems to be taking off, so I wanted to play around with it, too.  The pedagogical philosophy here is that you'll be able to learn (or to refresh your memory if you have to step away from your coding hobby for life or work reasons) best by playing around on your own with commented code examples rather than reading documentation, watching videos, attending a conference, or sitting in a lecture hall.
 
 Meteor is a great framework for learning how to write web apps.  Using Meteor, you can quickly set up a full-stack development platform with easy access to a large library of JavaScript code that works almost everywhere.  Meteor gets you up and running quickly with "batteries included": with one install you get everything you need on the back end to build and deploy modern web apps.  In short, Meteor is a solid launch pad into the exciting world of open source software development.
 
@@ -75,9 +75,9 @@ $ meteor npm install
 $ meteor
 ```
 
-Once you've done the `git clone` you have a local copy of my code.  Then you don't have to worry if your Internet connection goes down; you have everything you need to keep playing with the code locally.
+Once you've done the `git clone` you have a local copy of my code.  Once you've done the `meteor npm install` you've got a local copy of all the node packages you need.  Once you've done the `meteor` and see the app running, then you have all the code dependencies downloaded locally and built for your platform.  Then you don't have to worry if your Internet connection goes down; you have everything you need to keep playing with the code locally.
 
-Once you get the hang of it, you'll want to set up your own `GitHub` account, then fork my repos.  Then you can do whatever you want with them.  All of my Meteor Mogul code is MIT licensed, which means that you can have it but you can't sue me if it doesn't work for you.  It's free, with no strings (and no promises or warranties) attached.
+If you're interested in developing your own apps, you'll want to set up your own `GitHub` account, then fork my repos.  Then you can do whatever you want with them.  All of my Meteor Mogul code is MIT licensed, which means that you can have it but you can't sue me if it doesn't work for you.  It's free, with no strings (and no promises or warranties) attached.
 
 If the above doesn't make sense to you, try reading the GitHub and Meteor documentation and get their examples working first.  Then come back to Meteor Mogul.
 
