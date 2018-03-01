@@ -65,8 +65,8 @@ To start playing with Meteor Mogul, here's what you need:
 1. A development machine running either MacOS or linux (easier and faster for developing with Meteor Mogul) or Windows 10 (harder and slower for developing with Meteor Mogul), connected to the Internet.
 2. An [evergreen web browser][evergreen]. I recommend [Mozilla Firefox](https://www.mozilla.org/) or [Google Chrome](https://www.google.com/chrome/browser/).
 3. A programming editor. I recommend [Atom](https://atom.io/).
-4. [Meteor][meteor]
-5. [git](https://git-scm.com/)
+4. [`meteor`][meteor]
+5. [`git`](https://git-scm.com/)
 
 I also recommend that you try out [GitHub Desktop](https://desktop.github.com/). It helps me manage commits without having to remember `git` shell commands.
 
@@ -83,7 +83,7 @@ $ meteor
 
 Once you've done the `git clone` you have a local copy of my code.  Once you've done the `meteor npm install` you've got a local copy of all the [`npm` packages][npm] you need.  Once you've done the `meteor` and see the app running, then you have all the code dependencies downloaded locally and built for your platform.  Then you don't have to worry if your Internet connection goes down; you have everything you need to keep playing with the code locally.
 
-If you're interested in developing your own apps, you'll want to set up your own `GitHub` account, then fork my repos.  Then you can do whatever you want with them.  All of my Meteor Mogul code is MIT licensed, which means that you can have it but you can't sue me if it doesn't work for you.  It's free, with no strings (and no promises or warranties) attached.
+If you're interested in developing your own apps, you'll want to set up your own [GitHub](https://github.com/) account, then fork my repos.  Then you can do whatever you want with them.  All of my Meteor Mogul code is MIT licensed, which means that you can have it but you can't sue me if it doesn't work for you.  It's free, with no strings (and no promises or warranties) attached.
 
 If the above doesn't make sense to you, try reading the GitHub and Meteor documentation and get their examples working first.  Then come back to Meteor Mogul.
 
@@ -92,7 +92,7 @@ A couple notes:
 1.  The `$` notation means to run the commands in a shell.
 2.  The `<target-dir>` convention means replace that with your own string.
 
-For example, to get the Meteor Mogul `Hello, world!` app up and running (that's good one to start with, since it's the simplest and designed to just make sure you have your development environment set up correctly), in a shell you could do:
+For example, to get the Meteor Mogul [Hello, world!](https://github.com/meteor-mogul/mogul-helloworld) app up and running (that's good one to start with, since it's the simplest and designed to just make sure you have your development environment set up correctly), in a shell you could do:
 
 ```
 $ git clone https://github.com/meteor-mogul/mogul-helloworld.git awesome-sauce
@@ -101,13 +101,17 @@ $ meteor npm install
 $ meteor
 ```
 
-If you forget the `meteor npm install` you'll probably see error messages letting you know that you need to install the `babel-runtime` node package.  The `meteor npm install` just has to happen once, but it's okay to run it multiple times.  That installs required `npm` packages in your local `node_modules` folder so Meteor can use them when it's building your app.  Meteor installs `npm`, a [package manager for JavaScript][npm], for you: `meteor npm` works just the same as `npm`.  So by installing Meteor you get convenient access to the entire `npm` library of JavaScript code.
+If you forget the `meteor npm install` you'll probably see error messages letting you know that you need to install the [@babel/runtime](https://www.npmjs.com/package/@babel/runtime) node package.  The `meteor npm install` just has to happen once, but it's okay to run it multiple times.  That installs required `npm` packages in your local node_modules folder so Meteor can use them when it's building your app.  Meteor installs `npm`, a [package manager for JavaScript][npm], for you: `meteor npm` works just the same as `npm`.  So by installing Meteor you get convenient access to the entire `npm` library of JavaScript code.
 
 By default, `meteor` (the final command above) will launch a web application server listening to port 3000. You can play with your sample app by pointing a browser at [http://localhost:3000](http://localhost:3000).
 
 ## Meteor Mogul Under the Hood
 
-The main thing Meteor Mogul does is provide the full version (that can compile templates) of the VueJS distribution as a Meteor package (`meteormogul:vue-dist`) on [Atmosphere](https://atmospherejs.com/meteormogul), using the `static-html` package to parse `.html` files, and removes the Blaze package.  So then when you write your `.html` files, vue.js deals with them instead of Blaze trying to compile them into Blaze templates.
+The main thing Meteor Mogul does is provide the full version (that can compile templates) of the VueJS distribution as a Meteor package ([meteormogul:vue-dist](https://atmospherejs.com/meteormogul/vue-dist)) on [Atmosphere](https://atmospherejs.com/meteormogul), using the [static-html](https://atmospherejs.com/meteor/static-html) package to parse `.html` files, and removes the Blaze package.  So then when you write your `.html` files, vue.js deals with them instead of Blaze trying to compile them into Blaze templates.
+
+Another thing Meteor Mogul provides is the [vue-meteor-tracker](https://github.com/meteor-vue/vue-meteor-tracker) mixin for Vue so your Vue components can see [Tracker](https://docs.meteor.com/api/tracker.html) reactivity.  This comes in handy for writing Vue components that can use Meteor [Accounts](https://docs.meteor.com/api/accounts.html), [Collections](https://docs.meteor.com/api/collections.html) and [Session](https://docs.meteor.com/api/session.html).
+
+Meteor Mogul also provides access to a rich set of user interface widgets thanks to [Vuetify](https://vuetifyjs.com/en/) and [Material Design icon fonts for Meteor](https://atmospherejs.com/zodiase/material-design-icons-fonts).
 
 ## Using the NPM version of vue.js in Meteor
 

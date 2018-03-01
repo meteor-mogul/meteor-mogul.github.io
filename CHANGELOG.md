@@ -1,5 +1,9 @@
 # Changelog for meteor-mogul.github.io
 
+## [0.0.11] - 2018-03-01
+
+- wordsmithing
+
 ## [0.0.10] - 2018-03-01
 
 - Vuetify
