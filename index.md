@@ -1,36 +1,42 @@
-January 19, 2018  
+March 1, 2018  
 Brunswick, Maine
 
 # What is Meteor Mogul?
 
-Meteor Mogul is a hobby project for learning [Meteor][meteor], [VueJS][vue] and [Bootstrap](https://getbootstrap.com/) to create apps for friends and family.
+Meteor Mogul is a hobby project for learning [Meteor][meteor], [VueJS][vue] and [Vuetify](https://vuetifyjs.com/en/) to create apps for friends and family.
 
-The goal of the project (at this point) is to make it easier for new developers to write apps using VueJS with Meteor and Bootstrap.
+The goal of the project (at this point) is to make it easier for new developers to write apps using VueJS with Meteor.
 
-Four major front-end frameworks can work with Meteor:
+Four major view frameworks can work with Meteor:
 
 1. [Blaze](http://blazejs.org/)
 2. [React](https://reactjs.org/)
 3. [Angular](https://angular.io/)
 4. [VueJS][vue]
 
-VueJS is easy to learn and has momentum going for it.  Unfortunately, it can be a bit tricky to get working in Meteor since it is not part of the official build or tutorial.  (At least, I found it tricky.)
+VueJS is easy to learn and has momentum going for it.  Unfortunately, it can be tricky to get working in Meteor since it is not part of the official build or tutorial.  (At least, I found it tricky.)
 
-That's where Meteor Mogul comes in.  You can clone my simple sample apps and quickly see how VueJS can work with Meteor; I added Bootstrap to the mix to make my apps look a little nicer.  The name "Meteor Mogul" is an allusion to getting over the bumps (in [downhill skiing](https://en.wikipedia.org/wiki/Mogul_skiing), bumps in the snow are called "moguls") that challenge anyone learning a new language or system, and also an allusion to the goal of becoming a better Meteor developer (a "[mogul](https://www.google.com/search?q=Dictionary#dobs=mogul)" is a powerful person).
+That's where Meteor Mogul comes in.  You can clone my simple sample apps and quickly see how VueJS can work with Meteor; I added Vuetify to the mix to make my apps look a little nicer.
 
 ## Why Meteor Mogul?
 
-My main motivation is to learn by doing, and help others do the same.  I have been toying with Meteor over the years and noticed that VueJS seems to be taking off, so I wanted to play around with it, too.  The pedagogical philosophy here is that you'll be able to learn (or to refresh your memory if you have to step away from your coding hobby for life or work reasons) best by playing around on your own with commented code examples rather than reading documentation, watching videos, attending a conference, or sitting in a lecture hall.
+One of the biggest challenges you'll face as a beginner trying to develop with Meteor in 2018 is too many choices!  Meteor has changed quite a bit over the years; many of the introductory tutorials were written for older versions.  In particular, the world has largely moved away from Blaze and toward React.  With this move, some of the appeal of Meteor is lost, since React is not designed for approachability.
 
-Meteor is a great framework for learning how to write web apps.  Using Meteor, you can quickly set up a full-stack development platform with easy access to a [large library of JavaScript code][npm] that works almost everywhere.  Meteor gets you up and running quickly with "batteries included": with one install you get everything you need on the back end to build and deploy modern web apps.  In short, Meteor is a solid launch pad into the exciting world of open source software development.
+Nonetheless Meteor remains a great framework for learning how to write web apps.  Using Meteor, you get a full-stack development platform with easy access to a [large library of JavaScript code][npm].  Meteor gets you up and running quickly with "batteries included": with one install you get everything you need to build and deploy modern web apps.  In short, Meteor is a solid launch pad into the exciting world of open source software development.
 
-VueJS enhances the Meteor developer experience with a view layer that is extremely intuitive and easy to use, while also being cleverly designed to allow you to tackle more sophisticated projects as your skill grows.  It's an improvement over Blaze, the view layer that Meteor provides out of the box: more people are working on VueJS right now, and VueJS benefits from the years of development of other view layers, adopting good ideas while remaining easy to learn.
+Meteor Mogul puts together everything you need so you can focus on the fun of learning how to build apps without agonizing about which view layer to use.  My goal is to write a lot of simple example apps that you can use to teach yourself how to build your own apps.
 
-The final piece to building web apps is style, to make your apps look good.  Of the many style frameworks available, Bootstrap has a good combination of features for people learning to develop web apps.
+My main motivation is to learn by doing, and help others do the same.  I have been toying with Meteor over the years and noticed that VueJS is taking off, so I wanted to play around with it, too.  The pedagogical philosophy here is that you'll be able to learn (or to refresh your memory if you have to step away from your coding hobby for life or work reasons) best by playing around on your own with commented code examples rather than reading documentation, watching videos, attending a conference, or sitting in a lecture hall.
 
-Meteor Mogul combines all three frameworks into a platform that makes it easier to write web apps that work on modern [evergreen browsers][evergreen].
+VueJS enhances the Meteor developer experience with a view layer that is extremely intuitive and easy to use, while also being cleverly designed to allow you to tackle more sophisticated projects as your skill grows.  It's a better Blaze: more people are working on VueJS right now, and VueJS benefits from the years of development of other view layers, adopting good ideas while remaining easy to learn.
+
+The final piece to building web apps is style, to make your apps look good.  Of the many style frameworks available, Vuetify has a great set of features for people learning to develop web apps.
+
+Meteor Mogul combines Meteor, VueJS and Vuetify into a platform that makes it easier to write web apps that work on modern [evergreen browsers][evergreen].
 
 ## Current Status of Meteor Mogul: Alpha
+
+I'm transitioning from Bootstrap to Vuetify.  At the moment, all the working code is based on Bootstrap, but the accounts package uses Vuetify.
 
 Four simple sample apps are working:
 
@@ -39,7 +45,7 @@ Four simple sample apps are working:
 3. [Meteor Mogul Meteor Vue To Do](https://github.com/meteor-mogul/mogul-meteor-vue-todo)
 4. [Meteor Mogul Vue Intro](https://github.com/meteor-mogul/vue-intro)
 
-I'm a neophyte at both VueJS and Meteor, so I'm just happy these apps are working.  I've already learned a lot writing them, and my plan is to comment my code profusely to share lessons learned.
+I'm a neophyte myself at all of this (I earned my degree in computer science in 1991 but have been out of the industry for more than a decade), so I'm just happy these apps are working.  I've already learned a lot writing them, and my plan is to comment my code profusely to share lessons learned.
 
 ## Getting Started
 
@@ -139,6 +145,8 @@ Now, go [get the Meteor Mogul code](https://github.com/meteor-mogul)!
 Have fun!  
 
 *\-Fred*
+
+P.S. Why the name "Meteor Mogul"?   What I had in mind was getting over the bumps (in [downhill skiing](https://en.wikipedia.org/wiki/Mogul_skiing), "moguls" are bumps in the snow) that challenge new developers, and also reaching the goal of becoming a better Meteor developer (a "[mogul](https://www.google.com/search?q=Dictionary#dobs=mogul)" is a powerful person).
 
 [vue]: https://vuejs.org/
 [meteor]: https://www.meteor.com/
