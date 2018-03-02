@@ -1,5 +1,9 @@
 # Changelog for meteor-mogul.github.io
 
+## [0.0.16] - 2018-03-02
+
+- Links to demos
+
 ## [0.0.15] - 2018-03-02
 
 - Fix a couple links.

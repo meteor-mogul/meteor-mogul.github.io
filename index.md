@@ -42,10 +42,18 @@ At the moment, some of my working code still uses Bootstrap, and some uses Vueti
 
 Four simple sample apps are working:
 
-1. [Hello, world!](https://github.com/meteor-mogul/mogul-helloworld) -- uses Vuetify
-2. [Meteor Mogul Button Click](https://github.com/meteor-mogul/mogul-button) -- no style
-3. [Meteor Mogul Meteor Vue To Do](https://github.com/meteor-mogul/mogul-meteor-vue-todo) -- Bootstrap (will migrate to Vuetify)
-4. [Meteor Mogul Vue Intro](https://github.com/meteor-mogul/vue-intro) -- Bootstrap (will probably leave it there)
+1. [code](https://github.com/meteor-mogul/mogul-helloworld)
+   [demo](https://meteor-mogul-hello-world.herokuapp.com/) :
+   [Hello, world!](https://meteor-mogul-hello-world.herokuapp.com/) -- uses Vuetify
+2. [code](https://github.com/meteor-mogul/mogul-button)
+   demo :
+   Meteor Mogul Button Click -- no style
+3. [code](https://github.com/meteor-mogul/mogul-meteor-vue-todo)
+   demo :
+   Meteor Mogul Meteor Vue To Do -- Bootstrap (will migrate to Vuetify)
+4. [code](https://github.com/meteor-mogul/vue-intro)
+   [demo](https://meteor-mogul-vue-intro.herokuapp.com/) :
+   [Meteor Mogul Vue Intro](https://meteor-mogul-vue-intro.herokuapp.com/) -- Bootstrap (will probably leave it there)
 
 I am in the middle of writing an account management system using Vue and Vuetify:
 
