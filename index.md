@@ -36,14 +36,20 @@ Meteor Mogul combines Meteor, VueJS and Vuetify into a platform that makes it ea
 
 ## Current Status of Meteor Mogul: Alpha
 
-I'm transitioning from Bootstrap to Vuetify.  At the moment, all the working code is based on Bootstrap, but the accounts package uses Vuetify.
+I'm transitioning from Bootstrap to Vuetify.  I didn't discover Vuetify until I'd started learning Bootstrap as a style framework.  But now that I know about Vuetify, I like it a lot better!
+
+At the moment, some of my working code still uses Bootstrap, and some uses Vuetify.  Going forward, it will all be Vuetify.
 
 Four simple sample apps are working:
 
-1. [Hello, world!](https://github.com/meteor-mogul/mogul-helloworld)
-2. [Meteor Mogul Button Click](https://github.com/meteor-mogul/mogul-button)
-3. [Meteor Mogul Meteor Vue To Do](https://github.com/meteor-mogul/mogul-meteor-vue-todo)
-4. [Meteor Mogul Vue Intro](https://github.com/meteor-mogul/vue-intro)
+1. [Hello, world!](https://github.com/meteor-mogul/mogul-helloworld) -- uses Vuetify
+2. [Meteor Mogul Button Click](https://github.com/meteor-mogul/mogul-button) -- no style
+3. [Meteor Mogul Meteor Vue To Do](https://github.com/meteor-mogul/mogul-meteor-vue-todo) -- Bootstrap (will migrate to Vuetify)
+4. [Meteor Mogul Vue Intro](https://github.com/meteor-mogul/vue-intro) -- Bootstrap (will probably leave it there)
+
+I am in the middle of writing an account management system using Vue and Vuetify:
+
+1. [Meteor Mogul Accounts](https://github.com/meteor-mogul/accounts-vuetify)
 
 I'm a neophyte myself at all of this (I earned my degree in computer science in 1991 but have been out of the industry for more than a decade), so I'm just happy these apps are working.  I've already learned a lot writing them, and my plan is to comment my code profusely to share lessons learned.
 
