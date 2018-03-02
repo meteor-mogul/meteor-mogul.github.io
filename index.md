@@ -1,4 +1,4 @@
-March 1, 2018  
+March 2, 2018  
 Brunswick, Maine
 
 # What is Meteor Mogul?
