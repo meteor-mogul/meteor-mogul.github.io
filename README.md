@@ -1,6 +1,6 @@
 # Meteor Mogul
 
-Meteor Mogul is a hobby project for learning Meteor, VueJS and Bootstrap to create apps for friends and family.
+Meteor Mogul is a hobby project for learning Meteor, VueJS and Vuetify to create apps for friends and family.
 
 The basic plan is
 
