@@ -117,7 +117,7 @@ The main thing Meteor Mogul does is provide the full version (that can compile t
 
 Another thing Meteor Mogul provides is the [vue-meteor-tracker](https://github.com/meteor-vue/vue-meteor-tracker) mixin for Vue so your Vue components can see [Tracker](https://docs.meteor.com/api/tracker.html) reactivity.  This comes in handy for writing Vue components that can use Meteor [Accounts](https://docs.meteor.com/api/accounts.html), [Collections](https://docs.meteor.com/api/collections.html) and [Session](https://docs.meteor.com/api/session.html).
 
-Meteor Mogul also provides access to a rich set of user interface widgets thanks to [Vuetify](https://vuetifyjs.com/en/) and [Material Design icon fonts for Meteor](https://atmospherejs.com/zodiase/material-design-icons-fonts).
+Meteor Mogul also provides access to a rich set of user interface widgets thanks to [Vuetify](https://github.com/meteor-mogul/mogul-vuetify-dist) and [Material Design icon fonts for Meteor](https://github.com/meteor-mogul/mogul-material-design-icons-fonts).
 
 ## Using the NPM version of vue.js in Meteor
 

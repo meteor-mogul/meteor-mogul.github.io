@@ -1,5 +1,9 @@
 # Changelog for meteor-mogul.github.io
 
+## [0.0.15] - 2018-03-02
+
+- Fix a couple links.
+
 ## [0.0.14] - 2018-03-02
 
 - Get the date right
